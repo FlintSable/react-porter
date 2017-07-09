@@ -2,7 +2,7 @@
   "name": "01porter",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://FlintSable.github.io/01porter",
+  "homepage" : "http://FlintSable.github.io/react-porter",
   "dependencies": {
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",
