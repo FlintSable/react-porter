@@ -6,7 +6,8 @@ export const Image = styled.img`
 
 export const HeroImage = styled.div`
     height: 100vh;
-    background-image: url('${require('../../assets/short720.gif')}');
+    // temp image
+    background-image: url('${require('../../assets/water-texture22_thumb.png')}');
     background-repeat: no-repeat;    
     background-position: center;
     background-size: cover;

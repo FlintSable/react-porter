@@ -19,9 +19,8 @@ Router.prototype.componentWillReceiveProps = function(nextProps){
 export default(
 	<Router history={hashHistory}>
 		<Route path='/' component={App}>
-			<IndexRoute component={Home} />
-			<Route path='/projects' component={Projects}/>
-			
+		<IndexRoute component={Home} />
+		<Route path='/projects' component={Projects}/>
 		</Route>
 	</Router>
 	);
