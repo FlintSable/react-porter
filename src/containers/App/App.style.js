@@ -7,7 +7,7 @@ export const Background = styled.div`
     width: 80vw;
     top: 10vh; 
     height: 80vh;
-    background-image: url(${require('../../assets/water-texture22_thumb.png')});
+    background-image: url(${require('../../assets/water-texture22.png')});
     background-color: ${green};
     opacity: 0.2;
     background-size: 120%;

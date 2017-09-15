@@ -17,14 +17,17 @@ export const Div = styled.div`
 `;
 
 export const Container = styled(Div)`
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 30px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px; 
+    paddint-bottom: 80px;
+    ${({ flex }) => flex ? css`display: flex;` : null}
+
     ${media.tablet`
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
     `}
+
     ${media.phone`
         padding-left: 10px;
         padding-right: 10px;
