@@ -1,4 +1,4 @@
-# react-porter
+# Dynamic React Waves Portfolio
 React Portfolio
 
 ## 🌐 [Live Link](https://flintsable.github.io/react-porter/#/)
